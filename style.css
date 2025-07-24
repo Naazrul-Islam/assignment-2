@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 /* shared area  */
 .dis-flex{
     display: flex;
@@ -57,22 +61,79 @@ list-style: none;
 .banner-container img{
     max-width: 570px;
 }
+/* card area  */
+
+.card-section{
+    max-width: 1140px;
+    max-height: 1187px;
+    margin: 0 auto;
+    text-align: center;
+}
+.plants-card-title{
+    font-weight: bold;
+    font-size: 3.2rem;
+    margin: 0;
+}
+.plants-card-description{
+    font-size: 1.4rem;
+    
+}
+.plants-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 30px;
+}
+.plants-card{
+    text-align: center;
+    max-width: 270px;
+    padding: 19;
+}
+.card-btn{
+width: 100%;
+background-color: #E95A08;
+padding: 19px 50px;
+}
+.card-btn a{
+    color: white;
+    font-weight: 600;
+}
+#lily{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+#price{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
 @media screen and (max-width: 512px){
+    /* nav area responsive  */
     .list-item1, .list-item2, .list-item3{
         display: none;
     }
     .navber{
         margin: 28px;
     }
+    /* banner area responsive */
     .banner-container{
         flex-direction: column-reverse;
         gap: 28px;
         margin: 0;
     }
     .banner-title{
-        font-size: 24px;
+        font-size: 1.6rem;
     }
     .banner-box{
         padding: 0 16px 0 16px;
     }
-}
+    /* plants card area responsive */
+    .plants-card-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .plants-card-img{
+        width: 100%;
+    }
+    }
+    
