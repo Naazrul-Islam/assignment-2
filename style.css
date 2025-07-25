@@ -340,6 +340,9 @@ padding: 19px 50px;
     .banner-title{
         font-size: 1.6rem;
     }
+    .banner-description{
+        font-size: 16px;
+    }
     .banner-box{
         padding: 0 16px 0 16px;
     }
