@@ -268,6 +268,34 @@ padding: 19px 50px;
       color: white;
       font-weight: 600;
      }
+     /* footer area  */
+     footer{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1120px;
+        margin: 50px auto;
+        gap: 110px;
+     }
+     .footer-link{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 26px 110px;
+     }
+     .footer-link button{
+        border: none;
+        background-color: white;
+     }
+     .footer-img{
+        display: flex;
+        width: 100%;
+        max-width: 260px;
+        justify-content: space-between;
+        gap: 0 24px;
+     }
+     .footer-img img{
+        height: 36px;
+        width: 36px;
+     }
 @media screen and (max-width: 512px){
     /* nav area responsive  */
     .list-item1, .list-item2, .list-item3{
