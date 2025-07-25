@@ -1,3 +1,8 @@
+body{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;;
+}
+
 a{
     text-decoration: none;
 }
@@ -11,6 +16,10 @@ a{
 }
 .color-2{
     color: #E95A08;
+}
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
 }
 /* header area  */
 
@@ -53,6 +62,8 @@ list-style: none;
     font-weight: bold;
     font-size: 4rem;
     margin-bottom: 0;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
 }
 .banner-description{
     font-size: 1.6rem;
@@ -73,6 +84,8 @@ list-style: none;
     font-weight: bold;
     font-size: 3.2rem;
     margin: 0;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
 }
 .plants-card-description{
     font-size: 1.4rem;
@@ -134,6 +147,8 @@ padding: 19px 50px;
  .plants-lover-title{
     font-size: 3.2rem;
     font-weight: bold;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
  }
  .plants-lover-description{
     font-size: 1.4rem;
@@ -148,6 +163,8 @@ padding: 19px 50px;
     font-size: 3.2rem;
     font-weight: bold;
     margin-bottom: 0;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
  }
  .deal-description{
     font-size: 1.3rem;
@@ -204,6 +221,8 @@ padding: 19px 50px;
     font-weight: bold;
     color: white;
     margin-bottom: 0;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
  }
  .offer-box3 h5{
     font-size: 1.7rem;
@@ -216,6 +235,8 @@ padding: 19px 50px;
         font-weight: bold;
         color: white;
         margin-bottom: 0;
+        font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
     }
     .shop-now{
         font-size: 16px;
@@ -244,6 +265,8 @@ padding: 19px 50px;
     .join-title{
         font-size: 3.2rem;
         font-weight: bold;
+        font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
     }
         
     .join-input{
@@ -329,9 +352,18 @@ padding: 19px 50px;
     .plants-card-img{
         width: 100%;
     }
+    #lily{
+        font-size: 1rem;
+    }
+    #price{
+        font-size: 1rem;
+    }
     /* plants-lover-section responsive */
     .plants-lover-section{
         margin: 41px auto 143px auto;
+    }
+    .plants-lover-title{
+        font-size: 1.4rem;
     }
     .plants-lover-container{
         display: flex;
@@ -362,6 +394,9 @@ padding: 19px 50px;
 
   .offer-box3 {
     height: 200px;
+  }
+  .offer-box3 h4{
+    font-size: 1.4rem;
   }
   /* join area responsive */
   .join-container{
